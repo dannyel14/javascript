@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning JavaScript Basics</title>
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  
+  <body class="flex flex-col bg-gray-900">
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4">
+    <h1 class="text-3xl text-yellow-200 font-bold md:text-5xl lg:text-7xl ">Learning JavaScript Basics</h1>
+    </div>
+  
+ <div class="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto my-5 p-4 gap-1.5">
+  
+  <!-- even odd checker -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 1</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Odd and Even Checker</p>
+    <button onclick="loadScript('Exercise 1.js')" class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded">Click to open</button>
+  </div>
+  
+<!-- Basic Calculator -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 2</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Basic Calculator</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 2.js')">Click to open</button>
+  </div>
+  
+ <!-- Vote checker --> 
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 3</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Voting Eligibility Checker</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 3.js')">Click to open</button>
+  </div>
+
+<!-- Printing Numbers -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 4</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Print Numbers from 1 to 10</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 4.js')">Click to open</button>
+  </div>
+  
+<!-- Multiplication table -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 5</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Multiplication Tables</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 5.js')">Click to open</button>
+  </div>
+
+<!-- Grade Checker -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 6</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Grade Checker</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 6.js')">Click to open</button>
+  </div>
+  
+<!-- Guessing game -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 7</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">Guess the number game</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 7.js')">Click to play</button>
+  </div>
+  
+<!-- FizzBuzz Challenge -->
+  <div class="container flex flex-col items-center text-center mx-auto my-5 p-4 shadow-2xl">
+    <h1 class="text-lg text-yellow-200 font-bold md:text-xl lg:text-2xl ">Exercise 8</h1>
+    <p class="text-sm text-gray-500 w-[15ch] my-0.5 md:text-1xl lg:text-2xl lg:my-3">FizzBuzz Challenge</p>
+    <button class="bg-gray-800 hover:bg-gray-600 text-white font-bold py-1 px-2 rounded" onclick="loadScript('Exercise 8.js')">Click to open</button>
+  </div>   
+  </div>
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+  <script>
+    function loadScript(src) {
+      var script = document.createElement("script");
+      script.src = src;
+      document.body.appendChild(script);
+    }
+  </script>
+
+  </body>
+</html>
+
